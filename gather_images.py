@@ -51,8 +51,6 @@ while True:
     ret, frame = cap.read()
     if not ret:
         continue
-    
-    
 
     if count == num_samples:
         break
